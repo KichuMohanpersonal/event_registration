@@ -1,7 +1,7 @@
 # event_registration
 
 Repo contains React and Node files. !!Video is available!!
-React /  this folder contains packgejson and src files you will have to install (axios , react-router-dom).
+React_Components /  this folder contains packgejson and src files you will have to install (axios , react-router-dom).
 Auth / this folder is node directory you will have to install (becryptjs , cors ,express , jsonwebtoken,mongoose).
 
 Mongo DB can be setuped in https://www.mongodb.com/cloud/atlas/register

@@ -1,0 +1,96 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Navbar styling starts */
+
+.navbr{
+ 
+  background-color: #333;
+  height: 7vh;
+ 
+}
+
+.navbr ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+ 
+}
+.navbr li{
+  font-size: large;
+  color: aliceblue;
+  float: right;
+  padding: 0 70px;
+}
+
+/* navbar styling ends
+ */
+
+ /* login and registaration starts */
+
+
+.log_form{
+ display: grid; 
+ width: 50%;
+ margin: 10% auto;
+}
+
+.log_form label{
+ display: grid;
+ font-size: 20px;
+ 
+}
+
+input{
+  outline: none;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(125, 125, 126, 0.267);
+  
+}
+.ip{
+  margin-top:20px ;
+  font-optical-sizing: initial;
+  font-size: 20px;
+  height: 70px;
+  cursor: pointer;
+}
+.ip:hover{
+  background-color: rgba(125, 125, 126, .4);
+}
+.ip:active{
+ transform:translateY(1px);
+ box-shadow: 1px 2px 2px 2px grey;
+}
+
+/* Login and registration Ends */
+
+/* Profile Styling */
+
+
+button{
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+}
+
+button:active{
+  transform:translateY(1px);
+}
+
+.old{
+  margin: 0 70px;
+  line-height: 6px;
+}
+.pro{
+  margin:20px;
+  
+}
+
+
+/* Profile Styling Ends */
